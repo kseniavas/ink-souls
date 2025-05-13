@@ -21,9 +21,6 @@ body{
     text-align: center;
     position: relative;
     background-repeat: no-repeat;
-    
-    
-    
 
 }
 #menu img{
@@ -39,7 +36,7 @@ body{
     justify-items: center;
     margin: 0px; 
     padding: 0px;
-    gap:6vw;
+    gap:8vw;
     padding-left: 20vw;
     padding-right: 20vw;
     margin: 0;
