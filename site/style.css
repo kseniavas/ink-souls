@@ -1,0 +1,362 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Akatab:wght@400;500;600;700;800;900&family=Italiana&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Overpass+Mono:wght@300..700&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body{
+    background-color: black;
+    margin:0;
+    color:white;
+    font-family: Open Sans;
+   
+}
+#header{
+    height: 50vw;
+    width: 100%;
+    background-image: url("../images/background.jpg");
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.575) ), url("../images/background.jpg");
+    background-color: opacity(70%);
+    background-size:100vw;
+    font-size: 1vw;
+    text-align: center;
+    position: relative;
+    background-repeat: no-repeat;
+    
+    
+    
+
+}
+#menu img{
+    width: 5vw;
+    height: 5vw;
+}
+#menu{
+    filter: none;
+    display: flex;
+    list-style: none;
+    width: 100%;
+    align-items: center;
+    justify-items: center;
+    margin: 0px; 
+    padding: 0px;
+    gap:6vw;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    margin: 0;
+    padding-top: 1%;
+    position: fixed;
+    background-color: black;
+    z-index: 2;
+    font-size: 1vw;
+    
+
+}
+#name{
+    font-family: italiana;
+    color: white;
+    font-size: 10vw;
+    font-weight: 100;
+    z-index: 1;
+    width: 100%;
+    position: absolute;
+    top:1.7em;
+    
+    text-align: center;
+
+}
+#slogan{
+    font-family: Open Sans;
+    font-size: 3vw;
+    width: 40vw;
+    margin: auto;
+}
+
+.content{
+    padding-left: 15vw;
+    padding-right: 15vw;
+    font-size: 1.5vw;
+   
+}
+.content2{
+    padding-left: 20vw;
+    padding-right: 20vw;
+    font-size: 1.5vw;
+    padding-top: 10vw;
+    position: relative;
+  
+   
+}
+.block1{
+    
+    
+
+   
+}
+h3{
+    font-weight: 400;
+    font-size: 2.8vw;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    line-height: 1vw;
+    
+    
+}
+h4{
+    font-weight: 400;
+    font-size: 3.5vw;
+    padding: 0;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    line-height: 4.5vw;
+    
+}
+
+.slider{
+    width:25vw;
+    height: 25vw;
+    overflow: hidden;
+    display: flex;
+    background-color: black;
+    position: relative;
+    
+}
+
+.aboutslider{
+    width:50vw;
+    height: 25vw;
+}
+
+#slider2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation{
+    width: 100px;
+    position: absolute;
+
+    bottom: 10px;
+    left:10vw;
+    transform: translateX(0vw);
+    display: flex;
+}
+.aboutslider .navigation{
+    left:23vw;
+}
+.bar{
+    height: 1vh;
+    width:1vw;
+    margin:0.4vw;
+    cursor: pointer;
+    background-color: #ddd;
+    opacity: .5;
+    border-radius:10px;
+    transition: all .4s ease;
+}
+.bar:hover{
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+
+input[name=r]{
+    position: absolute;
+    visibility: hidden;
+}
+.slides{
+    width: 4000px;
+    height: 100%;
+    display: flex;
+    background-color: black;
+    
+}
+
+.all{
+    position:relative;
+    padding-bottom: 2vw;
+    width: 100%;
+    display: flex;
+}
+.slide{
+width: 25%;
+transition: all .6S ease;
+}
+.aboutslider .slide {
+    width: 50vw;
+    text-align: center;
+}
+.slide img{
+    width: 30vw;
+    height: 30vw;
+}
+
+#r1:checked~.s1{
+    margin-left: 0;
+}
+#r2:checked~.s1{
+    margin-left: -25%;
+}
+#r3:checked~.s1{
+    margin-left: -50%;
+}
+#r4:checked~.s1{
+    margin-left: -75%;
+}
+.all p{
+    margin-left: 4vw;
+    width: 40vw;
+    font-size: 1.5vw;
+    margin-top: 5vw;
+}
+
+#services hr{
+    border-color: #f7f7f7a1;
+    
+}
+
+#serv_block{
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+    justify-content: center;
+    font-size: 1vw;
+
+}
+
+#service1{
+    position: relative;
+    height: 30vw;
+    width: 20em;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.575) ), url("../images/tatoo.jpg");
+    background-size: cover;
+    padding: 1vw;
+
+}
+.all a{
+    padding-top: 20vw;
+}
+#service2{
+    position: relative;
+    height: 30vw;
+    width: 20em;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.575) ), url("../images/remove.jpg");
+    background-size: cover;
+    padding: 1vw;
+}
+#service3{
+    position: relative;
+    height: 30vw;
+    width: 20em;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.575) ), url("../images/cover.png");
+    background-size: cover;
+    padding: 1vw;
+}
+#services h5{
+    font-size: 1.5em;
+    font-weight: 400;
+    margin: 0;
+}
+
+
+
+
+.price{
+    padding: 0;
+    margin-top: 20vw;
+    width: 100%;
+   
+}
+.lighthr{
+    margin-bottom: 2vw;
+}
+#services{
+    padding-bottom: 2vw;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+a:hover{
+    color: rgba(255, 255, 255, 0.66);
+}
+
+
+
+#about_block{
+    width:100%;
+    height:50vw;
+    padding: 0;
+    position:relative;
+    display:FLEX;
+    justify-content:center;
+    align-items:center;
+    margin:auto;
+    margin-top: 3vw;
+
+    
+
+}
+
+#right{
+    float:left;
+    height:50vw;
+    width: 30vw;
+}
+
+#left{
+    float:right;
+    height:50vw;
+    width:30vw;
+    float: right;
+}
+
+#about_block #name{
+    font-size:5.7vw;
+   
+    text-align:left;
+   width:10%;
+    top:.5em;
+    margin:0;
+    padding:0;
+    line-height: 3.5vw;
+   
+}
+#about_block #slogan{
+    font-size:1.5vw;
+    
+    top:0;
+    margin:0;
+    padding:0
+    
+}
+
+#img1, #img2{
+   
+    width:25vw;
+    height: 35vw;
+}
+
+
+
+#text1{
+    font-size:1.1vw;
+    width:30vw;
+    font-family:Open Sans;
+    position:absolute;
+    top:36vw;
+    padding-right: .5vw;
+    
+}
+#text1 h4{
+    margin:0;
+    padding:0;
+    line-height:2.5vw;
+}
+
+#text3, #text2{
+    padding-right: 3vw;
+    font-size:1.2vw;
+
+}
