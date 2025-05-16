@@ -1,0 +1,20 @@
+p{
+    font-family: Open Sans;
+    font-size: 25px;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.master{
+    display: flex;
+    flex-direction: row;
+    width: 65%;
+    gap:3vw;
+    margin: 30px;
+}
+.foto img {
+   width: 20vw;
+}
