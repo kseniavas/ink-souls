@@ -18,3 +18,50 @@ p{
 .foto img {
    width: 20vw;
 }
+
+#otziv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10vw;
+    gap:3vw;
+    width: 80%;
+}
+.line{
+    height: 3px;
+    background-color: white;
+    width: 100%;
+}
+#otziv p{
+    text-align: center;
+}
+#button{
+    border-radius: 20px;
+    border: 1px solid white;
+    width: 15vw;
+    height: 47px;
+    text-align: center;
+    align-items: center;
+}
+#button p{
+    font-size: 15px;
+}
+.oziv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:3vw;
+}
+.round{
+    background-color: cadetblue;
+    width: 7vw;
+    height: 14vh;
+    border-radius: 50%;
+}
+.text_zone{
+    background-color: cadetblue;
+    width: 20vw;
+    height: 200px;
+}
