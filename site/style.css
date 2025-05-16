@@ -80,21 +80,22 @@ body{
     font-size: 1.5vw;
     padding-top: 10vw;
     position: relative;
+    display: flex;
+    flex-direction:column;
+    
+    justify-content: center;
   
-   
 }
-.block1{
-    
-    
+hr{
+    width: 100%;
+}
 
-   
-}
 h3{
     font-weight: 400;
     font-size: 2.8vw;
     padding-bottom: 0;
     margin-bottom: 0;
-    line-height: 1vw;
+   
     
     
 }
@@ -211,6 +212,7 @@ transition: all .6S ease;
     
 }
 
+
 #serv_block{
     display: flex;
     gap: 1vw;
@@ -282,7 +284,7 @@ a:hover{
 
 
 #about_block{
-    width:100%;
+    width:90%;
     height:50vw;
     padding: 0;
     position:relative;
@@ -291,7 +293,8 @@ a:hover{
     align-items:center;
     margin:auto;
     margin-top: 3vw;
-
+   
+    padding: 1vw;
     
 
 }
@@ -300,31 +303,50 @@ a:hover{
     float:left;
     height:50vw;
     width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #left{
     float:right;
     height:50vw;
     width:30vw;
-    float: right;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vw;
+    align-items: center;
+}
+.master_dicscription{
+    
+    width: 100%;
+}
+#left2{
+    float:right;
+    height:50vw;
+    width:30vw;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
 }
 
 #about_block #name{
     font-size:5.7vw;
-   
+   width: 25vw;
     text-align:left;
-   width:10%;
-    top:.5em;
+    line-height: 3vw;
+    position: static;
     margin:0;
     padding:0;
-    line-height: 3.5vw;
+    
    
 }
 #about_block #slogan{
-    font-size:1.5vw;
-    
+    font-size:1.4vw;
+    width: 100%;
     top:0;
-    margin:0;
+    
     padding:0
     
 }
@@ -339,10 +361,9 @@ a:hover{
 
 #text1{
     font-size:1.1vw;
-    width:30vw;
+    width:25vw;
     font-family:Open Sans;
-    position:absolute;
-    top:36vw;
+   
     padding-right: .5vw;
     
 }
@@ -355,5 +376,6 @@ a:hover{
 #text3, #text2{
     padding-right: 3vw;
     font-size:1.2vw;
+    padding-right: .5vw;
 
 }
